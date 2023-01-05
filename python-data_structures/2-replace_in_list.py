@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-def divisible_by_2(my_list=[]):
-    test = []
-    for i in my_list:
-        if i % 2 is 0:
-            test = test + [True]
-        else:
-            test = test + [False]
-    return test
+def replace_in_list(my_list, idx, element):
+    if idx < 0:
+        return my_list
+    elif idx >= len(my_list):
+        return my_list
+    else:
+        my_list[idx] = element
+        return my_list
