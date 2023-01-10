@@ -1,8 +1,3 @@
-#!/usr/bin/python3
-"""square"""
-
-
-1st classes::
+#!/usr/bin/python
 class Square:
-    """empty"""
     pass
