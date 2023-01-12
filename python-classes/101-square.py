@@ -76,4 +76,3 @@ class Square:
     def my_print(self):
         """Prints this square."""
         print(self.my_sprint(), end="")
-
