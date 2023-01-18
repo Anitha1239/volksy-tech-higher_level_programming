@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-"""zero task in input/output
+"""input-output
 """
 
 
 def read_file(filename=""):
-    """functions only
+    """input-output-programs
     """
-    
-with open(filename, encoding="utf-8") as readFile:
-    print(readFile.read(),end='')
+
+    with open(filename, encoding="utf-8") as readFile:
+        print(readFile.read(), end='')
