@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """write a file"""
 
+
 def write_file(filename="", text=""):
     """write"""
     if filename:
