@@ -1,2 +1,2 @@
-#!/usr/bin/python3if 
-python if/else conditions
+#!/usr/bin/python3
+hiii

@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-for alpha_letters in range(ord('a'), ord('z')+1):
-    if alpha_letters == ord('e') or alpha_letters == ord('q'):
+for i in range(ord('a'), ord('z')+1):
+    if i == ord('q') or i == ord('e'):
         continue
-    print("{:c}".format(alpha_letters), end="")
+    print("{:c}" .format(i), end="")

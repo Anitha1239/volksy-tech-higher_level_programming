@@ -1,1 +1,2 @@
-Hello
+#!/usr/bin/node
+hii

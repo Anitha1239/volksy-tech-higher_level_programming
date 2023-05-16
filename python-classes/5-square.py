@@ -1,11 +1,16 @@
 #!/usr/bin/python3
-"""string"""
+"""class"""
 
 
 class Square:
-    """class square"""
+    """Access and update private attribute"""
+
     def __init__(self, size=0):
         self.size = size
+
+    def area(self):
+        """area of the square"""
+        return(self.__size * self.__size)
 
     @property
     def size(self):
@@ -13,9 +18,11 @@ class Square:
 
     @size.setter
     def size(self, value):
+        """constructor"""
+
         if type(value) != int:
             raise TypeError("size must be an integer")
-        elif value < 0:
+        if value < 0:
             raise ValueError("size must be >= 0")
         self.__size = value
 
@@ -25,8 +32,8 @@ class Square:
 
     def my_print(self):
         if self.__size == 0:
-            print("")
+            print('')
         for i in range(0, self.__size):
             for j in range(0, self.__size):
-                print("#", end="")
+                print('#', end='')
             print()

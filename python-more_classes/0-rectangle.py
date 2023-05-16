@@ -1,11 +1,9 @@
 #!/usr/bin/python3
-"""
-This is the "Rectangle"  module.
-
-This module provides a simple Rectangle class.
-"""
+# 0-rectangle.py
+# Brennan D Baraban <375@holbertonschool.com>
+"""Defines a Rectangle class."""
 
 
 class Rectangle:
-    """A simple Rectangle class"""
+    """Represent a rectangle."""
     pass

@@ -1,14 +1,16 @@
 #!/usr/bin/python3
-""" inverts eq and nq in a class """
+# 100-my_int.py
+# Brennan D Baraban <375@holbertonschool.com>
+"""Defines a class MyInt that inherits from int."""
 
 
 class MyInt(int):
-    """ inverted equality for int class """
+    """Invert int operators == and !=."""
 
-    def __eq__(self, other):
-        if isinstance(self, type(other)):
-            return False
+    def __eq__(self, value):
+        """Override == opeartor with != behavior."""
+        return self.real != value
 
-    def __ne__(self, other):
-        if isinstance(self, type(other)):
-            return True
+    def __ne__(self, value):
+        """Override != operator with == behavior."""
+        return self.real == value

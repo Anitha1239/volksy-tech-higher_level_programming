@@ -1,11 +1,10 @@
 #!/usr/bin/python3
-"""load_from_json_file
-"""
+'''write a file'''
 import json
 
 
 def load_from_json_file(filename):
-    """Returns created object from a JSON file"""
+    '''file name'''
 
-    with open(filename, mode="r", encoding="UTF-8") as f:
+    with open(filename, mode='r', encoding='UTF-8') as f:
         return json.load(f)

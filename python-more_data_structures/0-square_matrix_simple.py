@@ -2,6 +2,6 @@
 def square_matrix_simple(matrix=[]):
     lst = []
     for i in matrix:
-        sub_matrix = map(lambda num: num**2, i)
-        lst.append(list(sub_matrix))
+        a = map(lambda i: i*i, i)
+        lst.append(list(a))
     return lst

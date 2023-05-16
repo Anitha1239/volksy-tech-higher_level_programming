@@ -1,2 +1,2 @@
--- sql
+-- hii
 SHOW TABLES;

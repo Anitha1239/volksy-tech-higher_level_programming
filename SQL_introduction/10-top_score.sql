@@ -1,2 +1,2 @@
--- sql 
-SELECT score,name FROM second_table ORDER BY score DESC;
+-- hiii
+SELECT score,name FROM second_table ORDER BY SCORE DESC;

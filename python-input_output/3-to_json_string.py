@@ -1,10 +1,8 @@
 #!/usr/bin/python3
-"""JSON
-"""
+'''write a file'''
 import json
 
 
 def to_json_string(my_obj):
-    """PYTHON TO JAVA"""
-
+    '''file name'''
     return json.dumps(my_obj)

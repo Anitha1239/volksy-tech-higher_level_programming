@@ -1,11 +1,8 @@
 #!/usr/bin/python3
-"""input-output
-"""
+'''string'''
 
 
 def read_file(filename=""):
-    """input-output-programs
-    """
-
-    with open(filename, encoding="utf-8") as readFile:
-        print(readFile.read(), end='')
+    '''file name'''
+    with open(filename, "r", encoding="UTF-8") as f:
+        print(f.read(), end="")

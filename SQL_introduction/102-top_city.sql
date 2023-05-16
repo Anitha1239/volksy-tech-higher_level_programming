@@ -1,4 +1,4 @@
--- sql
+-- hii
 SELECT `city`, AVG(`value`) AS `avg_temp`
 FROM `temperatures`
 WHERE `month` = 7 OR `month` = 8
